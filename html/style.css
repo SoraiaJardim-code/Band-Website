@@ -92,16 +92,18 @@ h1{
 
 /* Gallery Style */
 .gallery-grid {
-    display: flex;
-    gap: 15px;
-    padding: 20px 40px;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 85vw;
+    max-width: 1200px;
+    margin: 0 auto 40px auto;
+
 }
 
 .gallery-grid img {
     width: 100%;
-    flex: 1;
-    height: 250px;
+    height: 300px;
     object-fit: cover;
     border-radius: 8px;
 }
@@ -109,7 +111,7 @@ h1{
 .main-image-img{
     width: 100%;
     max-width: 800px;
-    height: 450px;
+    height: 320px;
     object-fit: cover;
     border-radius: 8px;
 }
@@ -178,20 +180,12 @@ h1{
     
 }
 
-/*Media*/
 
-.container {
 
- max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px 20px;
-
-.element {
-    font-size: 14px;
-    padding: 10px;}
 
     
-}
+
+
 
 
 
