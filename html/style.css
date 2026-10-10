@@ -10,7 +10,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('flowers.jpg');
+    background-color: black;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -55,10 +55,10 @@ h1{
 
 
 .container {
-    width: 100%;
+    width: 90%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 40px 20px;
 }
 
 .columns-wrapper {
@@ -96,8 +96,8 @@ h1{
 
 .gallery-grid img {
     flex: 1;
-    min-width: 400px;
-    height: 400px;
+    min-width: 500px;
+    height: 500px;
     object-fit: cover;
     border-radius: 5px;
 }
