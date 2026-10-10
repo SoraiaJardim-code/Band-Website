@@ -18,6 +18,15 @@ body {
     color: #ffffff;
 }
 
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px 20px;
+    text-align: center;
+}
+
 h2 {
     font-family: "Isometra", serif;
     color: #da291c;
@@ -40,7 +49,7 @@ h1{
     justify-content: space-between;
     align-items: center;
     background-color: #1a1a1a;
-    padding: 15px 30px;
+    padding: 20px 40px;
     color: white;
 }
 
@@ -99,11 +108,11 @@ h1{
 }
 
 .gallery-grid img {
+    width: 100%;
     flex: 1;
-    min-width: 500px;
     height: 250px;
     object-fit: cover;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 .main-image-img{
@@ -177,4 +186,14 @@ h1{
     font-weight: bold;
     
 }
+
+@media (max-width: 768px) {
+    .columns-wrapper {
+        flex-direction: column;
+    }
+.gallery-grid {
+    grid-template-columns: 1fr;
+}
+}
+
 
