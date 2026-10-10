@@ -1,7 +1,7 @@
 /* CSS Styles para Amor Electro Website */
-p, h5, h6 {
+p {
     font-size: 20px;
-    font-family:Arial;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align:center;
     
 
@@ -18,7 +18,15 @@ body {
     color: #ffffff;
 }
 
+header p {
+   font-family: "Bitcount Ink", system-ui;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
 h2 {
+    font-family: "Isometra", serif;
     color: #da291c;
     font-size: 1.8rem;
     margin-bottom: 20px;
@@ -28,11 +36,13 @@ h2 {
 }
 
 h1{
+    font-family: "Isometra", serif;
     color: #da291c
 }
 
 /* Navbar Styles */
 .navbar {
+    font-family: "Isometra", serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,6 +65,7 @@ h1{
 
 
 .container {
+
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
@@ -121,6 +132,7 @@ h1{
 
 /*Cartões de Informação*/
 .members-container {
+    font-family: "Isometra", serif;
      color: #da291c;
      text-transform: uppercase;
     letter-spacing: 1px;
@@ -158,6 +170,11 @@ h1{
 
 .footer a:hover {
     color: #ffffff
+}
+
+.nav-menu a:hover {
+    color: #da291c;
+    transition: color 0.3 ease;
 }
 
 .social-links a {
