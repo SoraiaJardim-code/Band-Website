@@ -57,7 +57,7 @@ h1{
     padding: 20px;
 }
 
-.colums-wrapper {
+.columns-wrapper {
     display: flex !important;
     flex-direction: row !important;
     justify-content: space-between;
@@ -75,7 +75,7 @@ h1{
     border-radius: 8px;
     margin-bottom: 30px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-    min-width: 280;
+    min-width: 280px;
 
 
 }
