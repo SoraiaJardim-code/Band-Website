@@ -188,12 +188,24 @@ h1{
 }
 
 @media (max-width: 768px) {
+    .navebar{
+        flex-direction: column;
+        gap:15px;
+        padding: 15px 10px;
+    }
     .columns-wrapper {
         flex-direction: column;
+        gap: 20px;
     }
 .gallery-grid {
     grid-template-columns: 1fr;
 }
+.bio-col, .concert-col {
+    width: 100%;
+    min-width: 100%;
+     }
 }
+
+
 
 
