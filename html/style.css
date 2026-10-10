@@ -18,13 +18,6 @@ body {
     color: #ffffff;
 }
 
-header p {
-   font-family: "Bitcount Ink", system-ui;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-}
-
 h2 {
     font-family: "Isometra", serif;
     color: #da291c;
@@ -108,7 +101,7 @@ h1{
 .gallery-grid img {
     flex: 1;
     min-width: 500px;
-    height: 500px;
+    height: 250px;
     object-fit: cover;
     border-radius: 5px;
 }
